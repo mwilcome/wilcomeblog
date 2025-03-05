@@ -3,6 +3,12 @@ baseURL = "http://localhost:1313/"  # Update to "https://mikewilcome.info/" when
 languageCode = "en-us"
 title = "Mike Wilcome’s Blog"
 
+# Markup definitions
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 # Module import for PaperMod
 [module]
   [[module.imports]]
