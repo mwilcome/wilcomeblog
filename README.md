@@ -1,6 +1,6 @@
 # Mike Wilcome's Blog
 
-Welcome to my personal blog! I’m Mike Wilcome, a Principal Engineer with over a decade of experience in full-stack Java development, microservices, and leadership in fintech and healthcare. This site showcases my career journey, projects, and insights into software engineering. It’s built with Hugo, hosted on Netlify, and accessible at [mikewilcome.info](https://mikewilcome.info).
+Welcome to my personal blog! I’m Mike Wilcome, a Principal Engineer with over a decade of experience in full-stack Java development, microservices, and leadership in tech and healthcare. This site showcases my career journey, projects, and insights into software engineering. It’s built with Hugo, hosted on Netlify, and accessible at [mikewilcome.info](https://mikewilcome.info).
 
 ## Project Overview
 
