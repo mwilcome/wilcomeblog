@@ -1,6 +1,6 @@
 # Basic site settings
 # "https://mikewilcome.info/" or "http://localhost:1313"
-baseURL = "https://mikewilcome.info"  # Update to "https://mikewilcome.info/" when deploying
+baseURL = "http:localhost:1313"  # Update to "https://mikewilcome.info/" when deploying
 languageCode = "en-us"
 title = "Mike Wilcome’s Blog"
 

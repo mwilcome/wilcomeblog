@@ -2,41 +2,41 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Blogs on Mike Wilcome’s Blog</title>
-    <link>http://localhost:60599/blog/</link>
+    <link>http:localhost:1313blog/</link>
     <description>Recent content in Blogs on Mike Wilcome’s Blog</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 25 Oct 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:60599/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http:localhost:1313blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Building Backend Pipelines for Comporium</title>
-      <link>http://localhost:60599/blog/comporium/</link>
+      <link>http:localhost:1313blog/comporium/</link>
       <pubDate>Fri, 25 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:60599/blog/comporium/</guid>
+      <guid>http:localhost:1313blog/comporium/</guid>
       <description>&lt;p&gt;At Orange Bees, I supported microservices in Java for Comporium. These systems power sales pipelines for Phone, Internet, TV, and Security products, handling document generation, payments, and user accounts. Skills: Java, Microservices, Open API, Agile.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.comporium.com/&#34;&gt;https://www.comporium.com/&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Supporting Michelin FixPix Backend</title>
-      <link>http://localhost:60599/blog/michelin-fixpix/</link>
+      <link>http:localhost:1313blog/michelin-fixpix/</link>
       <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:60599/blog/michelin-fixpix/</guid>
+      <guid>http:localhost:1313blog/michelin-fixpix/</guid>
       <description>&lt;p&gt;From Aug 2022 to Dec 2023 at Orange Bees, I worked on the Michelin FixPix backend using Java, Apache Camel, Vaadin, Velocity, and Spring. A challenging yet rewarding project enhancing tire service workflows. This supported their On Call systems where technicians doing live roadside service needed quick communication support in rural areas getting locations and many other data points that took technical skill to understand and lead efforts on.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://business.michelinman.com/oncall/tire-service&#34;&gt;https://business.michelinman.com/oncall/tire-service&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;img alt=&#34;Michelin OnCall&#34; loading=&#34;lazy&#34; src=&#34;http:localhost:1313/images/oncall.png&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Sync My Health Data: Wearables for Veterans</title>
-      <link>http://localhost:60599/blog/sync-my-health-data/</link>
+      <link>http:localhost:1313blog/sync-my-health-data/</link>
       <pubDate>Mon, 01 Aug 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:60599/blog/sync-my-health-data/</guid>
+      <guid>http:localhost:1313blog/sync-my-health-data/</guid>
       <description>&lt;p&gt;As lead architect from Apr 2019 to Aug 2022, I built an API integrating 20+ health apps and 800+ devices (Fitbit, Garmin, etc.) to stream live health data to VA doctors using Java and SSE. Focused on heart, diabetes, and fitness insights.&lt;/p&gt;
 &lt;p&gt;This application is used in Veterans Affairs to support countless thousands of veterans taking in millions of data points daily and aggregating them for both wellness and medical use.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Architecting VBMS Correspondence Web Service</title>
-      <link>http://localhost:60599/blog/vbms-correspondence/</link>
+      <link>http:localhost:1313blog/vbms-correspondence/</link>
       <pubDate>Fri, 15 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:60599/blog/vbms-correspondence/</guid>
+      <guid>http:localhost:1313blog/vbms-correspondence/</guid>
       <description>&lt;p&gt;At Booz Allen Hamilton (Sep 2015 - Mar 2019), I helped architect this JAX-RS/Spring Boot microservice for the VA, generating formatted PDF documents from requests. Wrote detailed docs on its tech stack. It&amp;rsquo;s much larger than it seems but I was able to reduce the code from about 20 modules of business logic down to 2 microservices and latest Java 17 etc. It was a big achievement and I received multiple company awards at Booz Allen for my efforts on it including a Team and Performance award and Innovation in Action award.&lt;/p&gt;</description>
     </item>
   </channel>
