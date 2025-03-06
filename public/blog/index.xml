@@ -2,41 +2,49 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Blogs on Mike Wilcome’s Blog</title>
-    <link>http://localhost:1313/blog/</link>
+    <link>https://mikewilcome.info/blog/</link>
     <description>Recent content in Blogs on Mike Wilcome’s Blog</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 25 Oct 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 31 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://mikewilcome.info/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Creating an Impossible Gear Illusion with p5.js</title>
+      <link>https://mikewilcome.info/blog/gear-illusion/</link>
+      <pubDate>Thu, 31 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://mikewilcome.info/blog/gear-illusion/</guid>
+      <description>&lt;h2 id=&#34;a-wild-idea-comes-to-life&#34;&gt;A Wild Idea Comes to Life&lt;/h2&gt;
+&lt;p&gt;I recently teamed up with &lt;strong&gt;Grok&lt;/strong&gt;, an AI from xAI, to tackle a fun challenge: building an optical illusion that makes you question how gears work. The result is the &lt;strong&gt;Impossible Gear Cascade&lt;/strong&gt;—a stack of gears where the bottom one spins the &lt;em&gt;same way&lt;/em&gt; as the top, which shouldn’t happen in real life. We brought it to life using &lt;strong&gt;p5.js&lt;/strong&gt;, a JavaScript tool that’s perfect for creative projects like this.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Building Backend Pipelines for Comporium: Taming the Sales Beast</title>
-      <link>http://localhost:1313/blog/comporium/</link>
+      <link>https://mikewilcome.info/blog/comporium/</link>
       <pubDate>Fri, 25 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/comporium/</guid>
+      <guid>https://mikewilcome.info/blog/comporium/</guid>
       <description>&lt;h2 id=&#34;diving-into-comporiums-southeast-empire&#34;&gt;Diving into Comporium’s Southeast Empire&lt;/h2&gt;
 &lt;p&gt;Back at Orange Bees, I took on a gig with &lt;a href=&#34;https://www.comporium.com/&#34;&gt;Comporium&lt;/a&gt;, a Southeast staple slinging phone, internet, TV, and security services across the Carolinas. My mission? Build and support a fleet of &lt;strong&gt;Java microservices&lt;/strong&gt; to power their sales pipelines—an internal tool that sales reps lean on to wrestle orders into shape. This wasn’t just coding; it was about streamlining a tangled mess into something sleek, all while juggling the ins and outs of their massive product lineup.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Supporting Michelin FixPix Backend: Roadside Rescue Done Right</title>
-      <link>http://localhost:1313/blog/michelin-fixpix/</link>
+      <link>https://mikewilcome.info/blog/michelin-fixpix/</link>
       <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/michelin-fixpix/</guid>
+      <guid>https://mikewilcome.info/blog/michelin-fixpix/</guid>
       <description>&lt;h2 id=&#34;hitting-the-road-with-michelin&#34;&gt;Hitting the Road with Michelin&lt;/h2&gt;
 &lt;p&gt;From August 2022 to December 2023, I got my hands dirty at Orange Bees, powering up the backend for &lt;em&gt;Michelin FixPix&lt;/em&gt;—a slick little app tied into &lt;a href=&#34;https://business.michelinman.com/oncall/tire-service&#34;&gt;Michelin’s OnCall&lt;/a&gt; roadside assistance gig. This wasn’t just a job; it was a full-on challenge that had me wrestling with &lt;strong&gt;Java&lt;/strong&gt;, &lt;strong&gt;Apache Camel&lt;/strong&gt;, &lt;strong&gt;Vaadin&lt;/strong&gt;, &lt;strong&gt;Velocity&lt;/strong&gt;, and &lt;strong&gt;Spring&lt;/strong&gt; to make tire service workflows hum like a well-tuned engine. Rewarding? You bet—seeing it come together felt like nailing a clutch pit stop.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Sync My Health Data: Wearables for Veterans</title>
-      <link>http://localhost:1313/blog/sync-my-health-data/</link>
+      <link>https://mikewilcome.info/blog/sync-my-health-data/</link>
       <pubDate>Mon, 01 Aug 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/sync-my-health-data/</guid>
+      <guid>https://mikewilcome.info/blog/sync-my-health-data/</guid>
       <description>&lt;h2 id=&#34;turning-wearables-into-lifelines&#34;&gt;Turning Wearables into Lifelines&lt;/h2&gt;
 &lt;p&gt;From April 2019 to August 2022, I stepped up as the &lt;strong&gt;lead architect&lt;/strong&gt; for &lt;em&gt;Sync My Health Data&lt;/em&gt;—a beast of a project that’s honestly one of my proudest wins. Picture this: I built a backend API that ties together &lt;strong&gt;20+ health apps&lt;/strong&gt; and &lt;strong&gt;800+ devices&lt;/strong&gt;, pulling live data straight to VA doctors. We’re talking heavy hitters like &lt;a href=&#34;https://www.fitbit.com&#34;&gt;Fitbit&lt;/a&gt; and &lt;a href=&#34;https://www.garmin.com&#34;&gt;Garmin&lt;/a&gt;, plus a slew of others, all feeding into a system I crafted with &lt;strong&gt;Java&lt;/strong&gt; and &lt;strong&gt;Server-Sent Events (SSE)&lt;/strong&gt;. The mission? Deliver real-time insights on heart health, diabetes, and fitness for veterans—data that’s making a difference every day.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Architecting VBMS Correspondence Web Service: From Chaos to Clarity</title>
-      <link>http://localhost:1313/blog/vbms-correspondence/</link>
+      <link>https://mikewilcome.info/blog/vbms-correspondence/</link>
       <pubDate>Fri, 15 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/vbms-correspondence/</guid>
+      <guid>https://mikewilcome.info/blog/vbms-correspondence/</guid>
       <description>&lt;h2 id=&#34;facing-the-monolith-monster&#34;&gt;Facing the Monolith Monster&lt;/h2&gt;
 &lt;p&gt;Back at Booz Allen Hamilton, from September 2015 to March 2019, I took on a beast of a project: the &lt;em&gt;VBMS Correspondence Web Service&lt;/em&gt;. When I started, it was a mess—&lt;strong&gt;20+ modules&lt;/strong&gt; tangled up in a hulking monolithic app, part of an even bigger system for the Veterans Affairs. My mission? Rip it apart, rebuild it, and make it work—&lt;em&gt;really work&lt;/em&gt;—for vets needing their benefits. Over the years, I led the charge to split it out into its own service, rewriting it as a lean &lt;strong&gt;Jersey&lt;/strong&gt; and &lt;strong&gt;Spring Boot&lt;/strong&gt; microservice, with a sprinkle of &lt;strong&gt;Groovy&lt;/strong&gt; for good measure. The result? A streamlined powerhouse that churned out formatted PDF documents from requests, cutting through the VA’s correspondence chaos.&lt;/p&gt;</description>
     </item>
