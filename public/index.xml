@@ -6,12 +6,12 @@
     <description>Recent content in Home on Mike Wilcome’s Blog</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 31 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 06 Mar 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://mikewilcome.info/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Creating an Impossible Gear Illusion with p5.js</title>
       <link>https://mikewilcome.info/blog/gear-illusion/</link>
-      <pubDate>Thu, 31 Oct 2024 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 06 Mar 2025 00:00:00 +0000</pubDate>
       <guid>https://mikewilcome.info/blog/gear-illusion/</guid>
       <description>&lt;h2 id=&#34;a-wild-idea-comes-to-life&#34;&gt;A Wild Idea Comes to Life&lt;/h2&gt;
 &lt;p&gt;I recently teamed up with &lt;strong&gt;Grok&lt;/strong&gt;, an AI from xAI, to tackle a fun challenge: building an optical illusion that makes you question how gears work. The result is the &lt;strong&gt;Impossible Gear Cascade&lt;/strong&gt;—a stack of gears where the bottom one spins the &lt;em&gt;same way&lt;/em&gt; as the top, which shouldn’t happen in real life. We brought it to life using &lt;strong&gt;p5.js&lt;/strong&gt;, a JavaScript tool that’s perfect for creative projects like this.&lt;/p&gt;</description>
@@ -19,7 +19,7 @@
     <item>
       <title>Building Backend Pipelines for Comporium: Taming the Sales Beast</title>
       <link>https://mikewilcome.info/blog/comporium/</link>
-      <pubDate>Fri, 25 Oct 2024 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 25 Aug 2024 00:00:00 +0000</pubDate>
       <guid>https://mikewilcome.info/blog/comporium/</guid>
       <description>&lt;h2 id=&#34;diving-into-comporiums-southeast-empire&#34;&gt;Diving into Comporium’s Southeast Empire&lt;/h2&gt;
 &lt;p&gt;Back at Orange Bees, I took on a gig with &lt;a href=&#34;https://www.comporium.com/&#34;&gt;Comporium&lt;/a&gt;, a Southeast staple slinging phone, internet, TV, and security services across the Carolinas. My mission? Build and support a fleet of &lt;strong&gt;Java microservices&lt;/strong&gt; to power their sales pipelines—an internal tool that sales reps lean on to wrestle orders into shape. This wasn’t just coding; it was about streamlining a tangled mess into something sleek, all while juggling the ins and outs of their massive product lineup.&lt;/p&gt;</description>
