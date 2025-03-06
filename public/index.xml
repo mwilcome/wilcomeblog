@@ -2,62 +2,59 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Home on Mike Wilcome’s Blog</title>
-    <link>https://mikewilcome.info/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content in Home on Mike Wilcome’s Blog</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 25 Oct 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://mikewilcome.info/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Building Backend Pipelines for Comporium</title>
-      <link>https://mikewilcome.info/blog/comporium/</link>
+      <title>Building Backend Pipelines for Comporium: Taming the Sales Beast</title>
+      <link>http://localhost:1313/blog/comporium/</link>
       <pubDate>Fri, 25 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>https://mikewilcome.info/blog/comporium/</guid>
-      <description>&lt;p&gt;At Orange Bees, I supported microservices in Java for Comporium. These systems power sales pipelines for Phone, Internet, TV, and Security products, handling document generation, payments, and user accounts. Skills: Java, Microservices, Open API, Agile.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.comporium.com/&#34;&gt;https://www.comporium.com/&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>http://localhost:1313/blog/comporium/</guid>
+      <description>&lt;h2 id=&#34;diving-into-comporiums-southeast-empire&#34;&gt;Diving into Comporium’s Southeast Empire&lt;/h2&gt;
+&lt;p&gt;Back at Orange Bees, I took on a gig with &lt;a href=&#34;https://www.comporium.com/&#34;&gt;Comporium&lt;/a&gt;, a Southeast staple slinging phone, internet, TV, and security services across the Carolinas. My mission? Build and support a fleet of &lt;strong&gt;Java microservices&lt;/strong&gt; to power their sales pipelines—an internal tool that sales reps lean on to wrestle orders into shape. This wasn’t just coding; it was about streamlining a tangled mess into something sleek, all while juggling the ins and outs of their massive product lineup.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Supporting Michelin FixPix Backend</title>
-      <link>https://mikewilcome.info/blog/michelin-fixpix/</link>
+      <title>Supporting Michelin FixPix Backend: Roadside Rescue Done Right</title>
+      <link>http://localhost:1313/blog/michelin-fixpix/</link>
       <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://mikewilcome.info/blog/michelin-fixpix/</guid>
-      <description>&lt;p&gt;From Aug 2022 to Dec 2023 at Orange Bees, I worked on the Michelin FixPix backend using Java, Apache Camel, Vaadin, Velocity, and Spring. A challenging yet rewarding project enhancing tire service workflows. This supported their On Call systems where technicians doing live roadside service needed quick communication support in rural areas getting locations and many other data points that took technical skill to understand and lead efforts on.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;Michelin OnCall&#34; loading=&#34;lazy&#34; src=&#34;https://mikewilcome.info/images/oncall.png&#34;&gt;&lt;/p&gt;</description>
+      <guid>http://localhost:1313/blog/michelin-fixpix/</guid>
+      <description>&lt;h2 id=&#34;hitting-the-road-with-michelin&#34;&gt;Hitting the Road with Michelin&lt;/h2&gt;
+&lt;p&gt;From August 2022 to December 2023, I got my hands dirty at Orange Bees, powering up the backend for &lt;em&gt;Michelin FixPix&lt;/em&gt;—a slick little app tied into &lt;a href=&#34;https://business.michelinman.com/oncall/tire-service&#34;&gt;Michelin’s OnCall&lt;/a&gt; roadside assistance gig. This wasn’t just a job; it was a full-on challenge that had me wrestling with &lt;strong&gt;Java&lt;/strong&gt;, &lt;strong&gt;Apache Camel&lt;/strong&gt;, &lt;strong&gt;Vaadin&lt;/strong&gt;, &lt;strong&gt;Velocity&lt;/strong&gt;, and &lt;strong&gt;Spring&lt;/strong&gt; to make tire service workflows hum like a well-tuned engine. Rewarding? You bet—seeing it come together felt like nailing a clutch pit stop.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Sync My Health Data: Wearables for Veterans</title>
-      <link>https://mikewilcome.info/blog/sync-my-health-data/</link>
+      <link>http://localhost:1313/blog/sync-my-health-data/</link>
       <pubDate>Mon, 01 Aug 2022 00:00:00 +0000</pubDate>
-      <guid>https://mikewilcome.info/blog/sync-my-health-data/</guid>
-      <description>&lt;p&gt;As lead architect from Apr 2019 to Aug 2022, I built an API integrating 20+ health apps and 800+ devices (Fitbit, Garmin, etc.) to stream live health data to VA doctors using Java and SSE. Focused on heart, diabetes, and fitness insights.&lt;/p&gt;
-&lt;p&gt;This application is used in Veterans Affairs to support countless thousands of veterans taking in millions of data points daily and aggregating them for both wellness and medical use.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/blog/sync-my-health-data/</guid>
+      <description>&lt;h2 id=&#34;turning-wearables-into-lifelines&#34;&gt;Turning Wearables into Lifelines&lt;/h2&gt;
+&lt;p&gt;From April 2019 to August 2022, I stepped up as the &lt;strong&gt;lead architect&lt;/strong&gt; for &lt;em&gt;Sync My Health Data&lt;/em&gt;—a beast of a project that’s honestly one of my proudest wins. Picture this: I built a backend API that ties together &lt;strong&gt;20+ health apps&lt;/strong&gt; and &lt;strong&gt;800+ devices&lt;/strong&gt;, pulling live data straight to VA doctors. We’re talking heavy hitters like &lt;a href=&#34;https://www.fitbit.com&#34;&gt;Fitbit&lt;/a&gt; and &lt;a href=&#34;https://www.garmin.com&#34;&gt;Garmin&lt;/a&gt;, plus a slew of others, all feeding into a system I crafted with &lt;strong&gt;Java&lt;/strong&gt; and &lt;strong&gt;Server-Sent Events (SSE)&lt;/strong&gt;. The mission? Deliver real-time insights on heart health, diabetes, and fitness for veterans—data that’s making a difference every day.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Architecting VBMS Correspondence Web Service</title>
-      <link>https://mikewilcome.info/blog/vbms-correspondence/</link>
+      <title>Architecting VBMS Correspondence Web Service: From Chaos to Clarity</title>
+      <link>http://localhost:1313/blog/vbms-correspondence/</link>
       <pubDate>Fri, 15 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://mikewilcome.info/blog/vbms-correspondence/</guid>
-      <description>&lt;p&gt;At Booz Allen Hamilton (Sep 2015 - Mar 2019), I helped architect this JAX-RS/Spring Boot microservice for the VA, generating formatted PDF documents from requests. Wrote detailed docs on its tech stack. It&amp;rsquo;s much larger than it seems but I was able to reduce the code from about 20 modules of business logic down to 2 microservices and latest Java 17 etc. It was a big achievement and I received multiple company awards at Booz Allen for my efforts on it including a Team and Performance award and Innovation in Action award.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/blog/vbms-correspondence/</guid>
+      <description>&lt;h2 id=&#34;facing-the-monolith-monster&#34;&gt;Facing the Monolith Monster&lt;/h2&gt;
+&lt;p&gt;Back at Booz Allen Hamilton, from September 2015 to March 2019, I took on a beast of a project: the &lt;em&gt;VBMS Correspondence Web Service&lt;/em&gt;. When I started, it was a mess—&lt;strong&gt;20+ modules&lt;/strong&gt; tangled up in a hulking monolithic app, part of an even bigger system for the Veterans Affairs. My mission? Rip it apart, rebuild it, and make it work—&lt;em&gt;really work&lt;/em&gt;—for vets needing their benefits. Over the years, I led the charge to split it out into its own service, rewriting it as a lean &lt;strong&gt;Jersey&lt;/strong&gt; and &lt;strong&gt;Spring Boot&lt;/strong&gt; microservice, with a sprinkle of &lt;strong&gt;Groovy&lt;/strong&gt; for good measure. The result? A streamlined powerhouse that churned out formatted PDF documents from requests, cutting through the VA’s correspondence chaos.&lt;/p&gt;</description>
     </item>
     <item>
       <title>About Me</title>
-      <link>https://mikewilcome.info/about/</link>
+      <link>http://localhost:1313/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://mikewilcome.info/about/</guid>
-      <description>&lt;p&gt;&lt;img alt=&#34;Mike Wilcome, Principal Engineer&#34; loading=&#34;lazy&#34; src=&#34;https://mikewilcome.info/images/IMG_7839.JPG&#34;&gt;&lt;/p&gt;
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;p&gt;&lt;img alt=&#34;Mike Wilcome, Principal Engineer&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/images/IMG_7839.JPG&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;mike-wilcome&#34;&gt;Mike Wilcome&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Principal Engineer | Full-Stack Java Expert | Tech Leader&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;I’m Mike Wilcome, a Principal Engineer passionate about building innovative software solutions. With expertise in full-stack Java development, microservices, and leadership, I’ve spent over a decade delivering impactful projects in tech, healthcare, and veteran services.&lt;/p&gt;
+&lt;hr&gt;
 &lt;h3 id=&#34;education&#34;&gt;Education&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Bachelor of Science in Computer Science&lt;/strong&gt;&lt;br&gt;
-Charleston Southern University, 2009 - 2014&lt;br&gt;
-Learned the foundations of software engineering while honing skills in leadership and service.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;career-highlights&#34;&gt;Career Highlights&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Principal Engineer&lt;/strong&gt;&lt;br&gt;
-Iron Bow Technologies (Aug 2024 - Present, Remote)&lt;br&gt;
-Leading software initiatives with skills in Java, leadership, and team building.&lt;/p&gt;</description>
+&lt;p&gt;&lt;strong&gt;Bachelor of Science in Computer Science&lt;/strong&gt;&lt;br&gt;
+&lt;em&gt;Charleston Southern University&lt;/em&gt;&lt;br&gt;
+&lt;em&gt;2009 - 2014&lt;/em&gt;&lt;br&gt;
+Learned the foundations of software engineering while honing skills in leadership and service.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
