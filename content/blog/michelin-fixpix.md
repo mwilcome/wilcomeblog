@@ -6,7 +6,7 @@ author: "Mike Wilcome"
 
 ## Hitting the Road with Michelin
 
-From August 2022 to December 2023, I got my hands dirty at Orange Bees, powering up the backend for *Michelin FixPix*—a slick little app tied into [Michelin’s OnCall](https://business.michelinman.com/oncall/tire-service) roadside assistance gig. This wasn’t just a job; it was a full-on challenge that had me wrestling with **Java**, **Apache Camel**, **Vaadin**, **Velocity**, and **Spring** to make tire service workflows hum like a well-tuned engine. Rewarding? You bet—seeing it come together felt like nailing a clutch pit stop.
+From August 2022 to December 2023, I got my hands dirty at Orange Bees, powering up the backend for *Michelin FixPix*—a slick little app tied into [Michelin’s OnCall](https://business.michelinman.com/oncall/tire-service) roadside assistance gig. This was a challenge that had me wrestling with **Java**, **Apache Camel**, **Vaadin**, **Velocity**, and **Spring** to help their roadside services more efficient. 
 
 ---
 
@@ -33,7 +33,7 @@ This wasn’t just plugging in frameworks—it was about making them work *toget
 
 ### Why It Mattered
 
-FixPix wasn’t some side gig—it tied into Michelin’s big OnCall push, supporting live roadside crews who needed info pronto. I’m proud of how it turned out; it’s not every day you get to boost a tire giant’s workflow while helping folks stuck on the highway. Check out [Michelin’s take](https://business.michelinman.com/oncall/tire-service) on their roadside services—FixPix is part of that legacy now, and I had a hand in it.
+FixPix tied into Michelin’s big OnCall push, supporting live roadside crews who needed info pronto. I’m proud of how it turned out; it’s not every day you get to boost a tire giant’s workflow while helping folks stuck on the highway. Check out [Michelin’s take](https://business.michelinman.com/oncall/tire-service) on their roadside services—FixPix is part of that legacy now, and I had a hand in it.
 
 ![Michelin OnCall](/images/oncall.png)  
 *Source: [Michelin Commercial Tires](https://business.michelinman.com/oncall/tire-service)*

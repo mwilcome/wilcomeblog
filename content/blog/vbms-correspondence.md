@@ -6,7 +6,7 @@ author: "Mike Wilcome"
 
 ## Facing the Monolith Monster
 
-Back at Booz Allen Hamilton, from September 2015 to March 2019, I took on a beast of a project: the *VBMS Correspondence Web Service*. When I started, it was a mess—**20+ modules** tangled up in a hulking monolithic app, part of an even bigger system for the Veterans Affairs. My mission? Rip it apart, rebuild it, and make it work—*really work*—for vets needing their benefits. Over the years, I led the charge to split it out into its own service, rewriting it as a lean **Jersey** and **Spring Boot** microservice, with a sprinkle of **Groovy** for good measure. The result? A streamlined powerhouse that churned out formatted PDF documents from requests, cutting through the VA’s correspondence chaos.
+Back at Booz Allen Hamilton, from September 2015 to March 2019, I took on a large project: the *VBMS Correspondence Web Service*. When I started, it was a mess—**20+ modules** tangled up in a hulking monolithic app, part of an even bigger system for the Veterans Affairs. I had to rebuild it, and make it work for vets needing their benefits. Over the years, I led the charge to split it out into its own service, rewriting it as a lean **Jersey** and **Spring Boot** microservice, with a sprinkle of **Groovy** for good measure. The result? A streamlined powerhouse that churned out formatted PDF documents from requests, cutting through the VA’s correspondence chaos.
 
 ---
 
@@ -20,13 +20,11 @@ This wasn’t a quick fix. That original setup was a nightmare—20+ modules of 
 
 ### Tools That Tamed It
 
-Here’s what I wielded to pull this off:
+Here’s what I was directed to use:
 - **Jersey & Spring Boot**: The backbone—fast, modern, and built to scale.
-- **Groovy**: Tossed in some scripting spice to smooth out the edges.
-- **Java 17**: Kept it cutting-edge, leveraging the latest features.
+- **Groovy**: Tossed in some scripting spice to smooth out the edges. (mixed with java yes)
+- **Java 7 and 8 and 11**: Kept it cutting-edge, leveraging the latest features. (at the time)
 - **Unit Tests**: 100% coverage—nothing slipped through the cracks.
-
-It was a grind, but turning that monolith into something clean and dependable took real skill—and a lot of coffee.
 
 ---
 

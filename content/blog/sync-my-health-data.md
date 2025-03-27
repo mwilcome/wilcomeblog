@@ -20,7 +20,9 @@ This isn’t some small-time gig. *Sync My Health Data* powers Veterans Affairs,
 
 ### My Journey: From Fresh Senior to VA Hero
 
-Here’s the kicker: I walked into this as a newly minted senior engineer, handed a spec sheet, and told to make it happen. And I did—nailed it, top to bottom. It’s easily one of the **top highlights of my career**, not just because of the tech (though that’s pretty cool), but because it’s out there *helping vets*. Knowing it’s impacting real lives—that’s the kind of fuel that keeps me going.
+I walked into this as a new senior engineer, handed a spec sheet, and was told to make it happen. And I did—nailed it, top to bottom. It’s easily one of the **top highlights of my career**, not just because of the tech (though that’s pretty cool), but because it’s out there *helping vets*. Knowing it’s impacting real lives—that’s the kind of fuel that keeps me going. I continued my career to work alongside the people that I worked with on this project; and have found myself overseeing multiple projects that include this in the VA. 
+
+The real dirty secret is that I pretty much built this backend by myself. I didn't do the Ops side but all of the Java code and 100% code coverage with tests was all me. 
 
 *Sync My Health Data* isn’t just code; it’s a lifeline. Articles like [this one from Healthcare IT News](https://www.healthcareitnews.com/news/va-launches-sync-my-health-data-veterans) highlight how it’s empowering veterans with data-driven care—proof it’s more than just a job well done.
 
