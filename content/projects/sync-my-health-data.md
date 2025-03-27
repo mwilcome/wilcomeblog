@@ -1,29 +1,31 @@
 ---
-title: "Sync My Health Data: Wearables for Veterans"
+title: "Sync My Health Data: Integrating Wearables for Veteran Health"
 date: 2022-08-01
 author: "Mike Wilcome"
 ---
 
-## Turning Wearables into Lifelines
+## Integrating Wearables for Veterans’ Health with Sync My Health Data
 
-From April 2019 to August 2022, I stepped up as the **lead architect** for *Sync My Health Data*—a beast of a project that’s honestly one of my proudest wins. Picture this: I built a backend API that ties together **20+ health apps** and **800+ devices**, pulling live data straight to VA doctors. We’re talking heavy hitters like [Fitbit](https://www.fitbit.com) and [Garmin](https://www.garmin.com), plus a slew of others, all feeding into a system I crafted with **Java** and **Server-Sent Events (SSE)**. The mission? Deliver real-time insights on heart health, diabetes, and fitness for veterans—data that’s making a difference every day.
-
----
-
-### The Heart of It: Millions of Data Points, One Goal
-
-This isn’t some small-time gig. *Sync My Health Data* powers Veterans Affairs, crunching **millions of data points daily** from wearables—think smartwatches, scales, and even Bluetooth gadgets. It aggregates all that into something VA docs can actually use, supporting **countless thousands of veterans** with both wellness tracking and legit medical insights.
-
-> **Fun Fact**: The app integrates with everything from [Apple Health](https://www.apple.com/healthcare/apple-watch/) to [Google Fit](https://www.google.com/fit/), pulling in data from over 800 devices. That’s a logistics nightmare I turned into a seamless win.
+From April 2019 to August 2022, I served as the **lead architect** for *Sync My Health Data*, a project that connects data from over **20 health apps** and **800 devices** to provide VA doctors with real-time health insights. Using **Java** and **Server-Sent Events (SSE)**, I designed and implemented a backend API that integrates wearables like [Fitbit](https://www.fitbit.com) and [Garmin](https://www.garmin.com), supporting veterans’ health monitoring for conditions such as heart disease and diabetes.
 
 ---
 
-### My Journey: From Fresh Senior to VA Hero
+### Project Scope and Impact
 
-I walked into this as a new senior engineer, handed a spec sheet, and was told to make it happen. And I did—nailed it, top to bottom. It’s easily one of the **top highlights of my career**, not just because of the tech (though that’s pretty cool), but because it’s out there *helping vets*. Knowing it’s impacting real lives—that’s the kind of fuel that keeps me going. I continued my career to work alongside the people that I worked with on this project; and have found myself overseeing multiple projects that include this in the VA. 
+*Sync My Health Data* processes millions of data points daily, delivering critical health metrics to VA physicians. The system supports a broad range of devices—including smartwatches and Bluetooth-enabled medical tools—and integrates with platforms like [Apple Health](https://www.apple.com/healthcare/apple-watch/) and [Google Fit](https://www.google.com/fit/). This enables comprehensive tracking and medical insights for veterans.
 
-The real dirty secret is that I pretty much built this backend by myself. I didn't do the Ops side but all of the Java code and 100% code coverage with tests was all me. 
+> **Key Achievement**: Successfully aggregating data from over 800 devices into a usable format for healthcare providers was a significant milestone.
 
-*Sync My Health Data* isn’t just code; it’s a lifeline. Articles like [this one from Healthcare IT News](https://www.healthcareitnews.com/news/va-launches-sync-my-health-data-veterans) highlight how it’s empowering veterans with data-driven care—proof it’s more than just a job well done.
+---
+
+### Technical Approach and Challenges
+
+As lead architect, I oversaw the backend development, tackling challenges such as:
+
+- **Data Volume**: Handling large-scale, real-time data aggregation from diverse sources.
+- **API Design**: Building a dependable API with Java and SSE for continuous data delivery.
+- **Quality Assurance**: Achieving 100% code coverage with unit tests to ensure system reliability.
+
+This project is a career highlight due to its technical complexity and its meaningful impact on veterans’ lives. For more on its significance, see [Healthcare IT News](https://www.healthcareitnews.com/news/va-launches-sync-my-health-data-veterans).
 
 ---

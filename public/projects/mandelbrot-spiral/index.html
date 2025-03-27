@@ -7,8 +7,8 @@
 <meta name="robots" content="noindex, nofollow">
 <title>Mandelbrot Spiral Project | Mike Wilcome’s Blog</title>
 <meta name="keywords" content="">
-<meta name="description" content="Mandelbrot Spiral
-I built a project called mandelbrot-spiral. This was a &ldquo;lunch break&rdquo; project today. It’s a visualization of the Mandelbrot set that zooms in fast with a spiral twist. Wrote it quickly with Grok (xAI) helping in JavaScript using p5.js. The idea came from messing around with the Mandelbrot set—wanted to see it move, not just sit there. Took some trial and error to get the zoom right, but it’s out on GitHub now: mwilcome/mandelbrot-spiral. Here’s what it’s about.">
+<meta name="description" content="Exploring the Mandelbrot Set with a Spiral Zoom in p5.js
+I recently completed a brief exploratory project titled mandelbrot-spiral, which visualizes the Mandelbrot set with a dynamic, spiraling zoom effect. Developed during a short break, this project was built using p5.js with assistance from Grok (xAI). The goal was to create an animated view of the Mandelbrot set that zooms rapidly into its intricate fractal patterns. The code is available on GitHub: mwilcome/mandelbrot-spiral.">
 <meta name="author" content="Mike Wilcome">
 <link rel="canonical" href="http://localhost:1313/projects/mandelbrot-spiral/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.45e028aa8ce0961349adf411b013ee39406be2c0bc80d4ea3fc04555f7f4611a.css" integrity="sha256-ReAoqozglhNJrfQRsBPuOUBr4sC8gNTqP8BFVff0YRo=" rel="preload stylesheet" as="style">
@@ -119,6 +119,11 @@ I built a project called mandelbrot-spiral. This was a &ldquo;lunch break&rdquo;
                     <span>Projects</span>
                 </a>
             </li>
+            <li>
+                <a href="http://localhost:1313/experiments/" title="Experiments">
+                    <span>Experiments</span>
+                </a>
+            </li>
         </ul>
     </nav>
 </header>
@@ -130,24 +135,33 @@ I built a project called mandelbrot-spiral. This was a &ldquo;lunch break&rdquo;
     <h1 class="post-title entry-hint-parent">
       Mandelbrot Spiral Project
     </h1>
-    <div class="post-meta"><span title='2025-03-06 00:00:00 +0000 UTC'>March 6, 2025</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Mike Wilcome
+    <div class="post-meta"><span title='2025-03-06 00:00:00 +0000 UTC'>March 6, 2025</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Mike Wilcome
 
 </div>
   </header> 
-  <div class="post-content"><h1 id="mandelbrot-spiral">Mandelbrot Spiral<a hidden class="anchor" aria-hidden="true" href="#mandelbrot-spiral">#</a></h1>
-<p>I built a project called <code>mandelbrot-spiral</code>. This was a &ldquo;lunch break&rdquo; project today. It’s a visualization of the Mandelbrot set that zooms in fast with a spiral twist. Wrote it quickly with Grok (xAI) helping in JavaScript using p5.js. The idea came from messing around with the Mandelbrot set—wanted to see it move, not just sit there. Took some trial and error to get the zoom right, but it’s out on GitHub now: <a href="https://github.com/mwilcome/mandelbrot-spiral">mwilcome/mandelbrot-spiral</a>. Here’s what it’s about.</p>
-<p>The code runs a loop that calculates the Mandelbrot set for an 800x800 canvas. Each pixel maps to a complex number, and I iterate it to see if it stays bounded or shoots off. Then it zooms in toward a spot at (-0.75, 0.1)—picked that because it’s got cool spiral patterns. The zoom’s exponential, tied to a time parameter, and the center spirals in with some trig functions. Took a bit to tweak the speed; started slow, but now it dives in fast, like 400x in 10 seconds.</p>
-<p>Here’s the first GIF showing how it starts and kicks into the zoom:</p>
-<p><img alt="Mandelbrot Spiral Start" loading="lazy" src="/images/mandelbrot-1.gif"></p>
-<h3 id="mandelbrot-set-details">Mandelbrot Set Details<a hidden class="anchor" aria-hidden="true" href="#mandelbrot-set-details">#</a></h3>
-<p>The Mandelbrot set is a set of complex numbers defined by a simple rule. For a number ( c ), you start with ( z_0 = 0 ) and iterate ( z_{n+1} = z_n^2 + c ). If ( |z_n| ) stays under 2 after a bunch of iterations (100 here), ( c )’s in the set. If it blows up, it’s not. The magic’s in the boundary—crazy fractal shapes pop out, self-similar and full of spirals.</p>
-<p>In this project, each pixel’s a ( c ) value. I map the canvas to a chunk of the complex plane, say -1.5 to 1.5 at first. For each pixel, I run the iteration and count how many steps before ( |z| &gt; 2 ). That count sets the color—black if it’s in the set, a gradient if it escapes. The zoom shrinks the view with ( \text{scale} = 1.5 \cdot e^{-0.2t} ), and the center moves like ( c_0 + 0.75 \cdot e^{-0.2t} (\cos(0.15t) + i \sin(0.15t)) ). The exponential drop makes it zoom fast, and the trig gives the spiral. It works because the set’s fractal nature means there’s always more detail to see, no matter how deep you go.</p>
-<h3 id="why-p5js">Why p5.js?<a hidden class="anchor" aria-hidden="true" href="#why-p5js">#</a></h3>
-<p>Used p5.js for this because it’s good for quick canvas stuff. It’s a JavaScript library that handles drawing and animation without a lot of setup. Just load it from a CDN, and you’re off. The pixel manipulation’s straightforward—set colors directly with <code>set()</code> and push them out with <code>updatePixels()</code>. Made tweaking the zoom and spiral easy, though it’s not the fastest for heavy math. Still, for an 800x800 grid, it holds up fine on decent hardware.</p>
-<p>Here’s the second GIF, showing it deep into the zoom where the spirals really show up:</p>
-<p><img alt="Mandelbrot Spiral Deep" loading="lazy" src="/images/mandelbrot-2.gif"></p>
-<h3 id="wrap-up">Wrap-Up<a hidden class="anchor" aria-hidden="true" href="#wrap-up">#</a></h3>
-<p>It’s a small project, but I like how it turned out. Shows off some math, some coding, and a bit of visual tinkering. The repo’s got the full code and a static shot, but these GIFs give the real feel. Might mess with it more later—maybe add controls or push the iterations higher for detail. For now, it’s done and out there.</p>
+  <div class="post-content"><h2 id="exploring-the-mandelbrot-set-with-a-spiral-zoom-in-p5js">Exploring the Mandelbrot Set with a Spiral Zoom in p5.js<a hidden class="anchor" aria-hidden="true" href="#exploring-the-mandelbrot-set-with-a-spiral-zoom-in-p5js">#</a></h2>
+<p>I recently completed a brief exploratory project titled <code>mandelbrot-spiral</code>, which visualizes the Mandelbrot set with a dynamic, spiraling zoom effect. Developed during a short break, this project was built using <strong>p5.js</strong> with assistance from Grok (xAI). The goal was to create an animated view of the Mandelbrot set that zooms rapidly into its intricate fractal patterns. The code is available on GitHub: <a href="https://github.com/mwilcome/mandelbrot-spiral">mwilcome/mandelbrot-spiral</a>.</p>
+<hr>
+<h3 id="project-overview">Project Overview<a hidden class="anchor" aria-hidden="true" href="#project-overview">#</a></h3>
+<p>The Mandelbrot set is a well-known fractal defined by iterating the function ( z_{n+1} = z_n^2 + c ) for complex numbers ( c ). Points that remain bounded under iteration are part of the set, while those that escape are not. This project maps an 800x800 canvas to a portion of the complex plane, calculating for each pixel whether it belongs to the set and coloring it based on the number of iterations before escape.</p>
+<p>The visualization features an exponential zoom centered on the point (-0.75, 0.1), chosen for its rich spiral structures. The zoom is tied to a time parameter, with the center spiraling inward using trigonometric functions to create a dynamic, engaging effect.</p>
+<p>Below is an animation showing the zoom in action:</p>
+<p><img alt="Mandelbrot Spiral Deep" loading="lazy" src="/images/mandelbrot-1.gif">
+<img alt="Mandelbrot Spiral Deep" loading="lazy" src="/images/mandelbrot-2.gif"></p>
+<hr>
+<h3 id="technical-implementation">Technical Implementation<a hidden class="anchor" aria-hidden="true" href="#technical-implementation">#</a></h3>
+<ul>
+<li><strong>Mandelbrot Calculation</strong>: For each pixel, the code performs up to 100 iterations to determine if the corresponding complex number ( c ) is in the set. The iteration count is used to assign colors, with black indicating points within the set.</li>
+<li><strong>Zoom Mechanism</strong>: The zoom is implemented using an exponential scale factor, ( \text{scale} = 1.5 \cdot e^{-0.2t} ), where ( t ) is time. The center of the view spirals inward with ( c_0 + 0.75 \cdot e^{-0.2t} (\cos(0.15t) + i \sin(0.15t)) ), creating a rapid, spiraling descent into the fractal.</li>
+<li><strong>Performance Considerations</strong>: While p5.js is not optimized for intensive computations, it handled the 800x800 grid effectively on standard hardware, making it suitable for this visualization.</li>
+</ul>
+<hr>
+<h3 id="why-p5js-was-chosen">Why p5.js Was Chosen<a hidden class="anchor" aria-hidden="true" href="#why-p5js-was-chosen">#</a></h3>
+<p>p5.js was selected for its ease of use in canvas-based projects. Its simple API for drawing and pixel manipulation—using functions like <code>set()</code> and <code>updatePixels()</code>—allowed for quick iteration and experimentation. The library’s built-in animation loop also facilitated the dynamic zoom effect.</p>
+<hr>
+<h3 id="conclusion">Conclusion<a hidden class="anchor" aria-hidden="true" href="#conclusion">#</a></h3>
+<p>This project served as a concise yet effective demonstration of the Mandelbrot set’s complexity and beauty. By combining mathematical concepts with visual programming, it highlights the potential of p5.js for creating engaging, interactive visualizations. The code is available for further exploration and modification.</p>
+<hr>
 
 
   </div>

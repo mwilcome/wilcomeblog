@@ -2,25 +2,61 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/posts/leading-and-serving/</loc>
-    <lastmod>2025-03-26T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/tags/android/</loc>
+    <lastmod>2025-03-27T12:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-03-26T00:00:00+00:00</lastmod>
+    <lastmod>2025-03-27T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/jetpack-compose/</loc>
+    <lastmod>2025-03-27T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/kotlin-multiplatform/</loc>
+    <lastmod>2025-03-27T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/leadership/</loc>
+    <lastmod>2025-03-27T12:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-03-26T00:00:00+00:00</lastmod>
+    <lastmod>2025-03-27T12:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/projects/mandelbrot-spiral/</loc>
-    <lastmod>2025-03-06T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/tags/software-engineering/</loc>
+    <lastmod>2025-03-27T12:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/projects/</loc>
-    <lastmod>2025-03-06T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/posts/uncertainty/</loc>
+    <lastmod>2025-03-27T12:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/projects/gear-illusion/</loc>
-    <lastmod>2025-03-04T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-03-27T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/creative-coding/</loc>
+    <lastmod>2025-03-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/experiments/</loc>
+    <lastmod>2025-03-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/experiments/p5-experiments/</loc>
+    <lastmod>2025-03-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/fractals/</loc>
+    <lastmod>2025-03-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/illusions/</loc>
+    <lastmod>2025-03-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/p5.js/</loc>
+    <lastmod>2025-03-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/visualization/</loc>
+    <lastmod>2025-03-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/leading-and-serving/</loc>
+    <lastmod>2025-03-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/projects/comporium/</loc>
+    <lastmod>2024-08-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects/</loc>
     <lastmod>2024-08-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/projects/michelin-fixpix/</loc>
@@ -35,7 +71,5 @@
     <loc>http://localhost:1313/about/</loc>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
   </url>
 </urlset>

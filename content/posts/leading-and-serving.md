@@ -1,6 +1,6 @@
 ---
 title: "Finding Motivation in Tech"
-date: 2025-03-26
+date: 2025-03-25
 author: "Mike Wilcome"
 ---
 

@@ -7,8 +7,8 @@
 <meta name="robots" content="noindex, nofollow">
 <title>Creating an Impossible Gear Illusion with p5.js | Mike Wilcome’s Blog</title>
 <meta name="keywords" content="">
-<meta name="description" content="A Wild Idea Comes to Life
-I recently teamed up with Grok, an AI from xAI, to tackle a fun challenge: building an optical illusion that makes you question how gears work. The result is the Impossible Gear Cascade—a stack of gears where the bottom one spins the same way as the top, which shouldn’t happen in real life. We brought it to life using p5.js, a JavaScript tool that’s perfect for creative projects like this.">
+<meta name="description" content="Creating an &ldquo;Impossible&rdquo; Gear Illusion with p5.js
+In a recent collaboration with Grok, an AI from xAI, I developed an optical illusion that challenges traditional gear mechanics: the Impossible Gear Cascade. This project features a vertical stack of gears where the bottom gear rotates in the same direction as the top gear—a behavior that defies the standard alternating rotation expected in gear systems. We implemented this illusion using p5.js, a JavaScript library ideal for creative coding projects. You&rsquo;ll note it&rsquo;s not quite &ldquo;impossible&rdquo; since AI wasn&rsquo;t able to perceive that it wasn&rsquo;t really an illusion. This is a nice little snapshop of the current limitations of AI in early 2025 and I&rsquo;m curious what we&rsquo;ll be able to do in the coming years.">
 <meta name="author" content="Mike Wilcome">
 <link rel="canonical" href="http://localhost:1313/projects/gear-illusion/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.45e028aa8ce0961349adf411b013ee39406be2c0bc80d4ea3fc04555f7f4611a.css" integrity="sha256-ReAoqozglhNJrfQRsBPuOUBr4sC8gNTqP8BFVff0YRo=" rel="preload stylesheet" as="style">
@@ -119,6 +119,11 @@ I recently teamed up with Grok, an AI from xAI, to tackle a fun challenge: build
                     <span>Projects</span>
                 </a>
             </li>
+            <li>
+                <a href="http://localhost:1313/experiments/" title="Experiments">
+                    <span>Experiments</span>
+                </a>
+            </li>
         </ul>
     </nav>
 </header>
@@ -130,57 +135,40 @@ I recently teamed up with Grok, an AI from xAI, to tackle a fun challenge: build
     <h1 class="post-title entry-hint-parent">
       Creating an Impossible Gear Illusion with p5.js
     </h1>
-    <div class="post-meta"><span title='2025-03-04 00:00:00 +0000 UTC'>March 4, 2025</span>&nbsp;·&nbsp;4 min&nbsp;·&nbsp;Mike Wilcome
+    <div class="post-meta"><span title='2025-03-04 00:00:00 +0000 UTC'>March 4, 2025</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Mike Wilcome
 
 </div>
   </header> 
-  <div class="post-content"><h2 id="a-wild-idea-comes-to-life">A Wild Idea Comes to Life<a hidden class="anchor" aria-hidden="true" href="#a-wild-idea-comes-to-life">#</a></h2>
-<p>I recently teamed up with <strong>Grok</strong>, an AI from xAI, to tackle a fun challenge: building an optical illusion that makes you question how gears work. The result is the <strong>Impossible Gear Cascade</strong>—a stack of gears where the bottom one spins the <em>same way</em> as the top, which shouldn’t happen in real life. We brought it to life using <strong>p5.js</strong>, a JavaScript tool that’s perfect for creative projects like this.</p>
-<p>Want to see it for yourself? Check out the code on my GitHub: <a href="https://github.com/mwilcome/gear-illusion">github.com/mwilcome/gear-illusion</a>. Stick around, though—I’ll walk you through how we pulled this off.</p>
+  <div class="post-content"><h2 id="creating-an-impossible-gear-illusion-with-p5js">Creating an &ldquo;Impossible&rdquo; Gear Illusion with p5.js<a hidden class="anchor" aria-hidden="true" href="#creating-an-impossible-gear-illusion-with-p5js">#</a></h2>
+<p>In a recent collaboration with Grok, an AI from xAI, I developed an optical illusion that challenges traditional gear mechanics: the <strong>Impossible Gear Cascade</strong>. This project features a vertical stack of gears where the bottom gear rotates in the same direction as the top gear—a behavior that defies the standard alternating rotation expected in gear systems. We implemented this illusion using <strong>p5.js</strong>, a JavaScript library ideal for creative coding projects. You&rsquo;ll note it&rsquo;s not quite &ldquo;impossible&rdquo; since AI wasn&rsquo;t able to perceive that it wasn&rsquo;t really an illusion. This is a nice little snapshop of the current limitations of AI in early 2025 and I&rsquo;m curious what we&rsquo;ll be able to do in the coming years.</p>
+<p>You can explore the code and see the illusion in action on GitHub: <a href="https://github.com/mwilcome/gear-illusion">github.com/mwilcome/gear-illusion</a>.</p>
 <hr>
-<h3 id="the-illusion-gears-that-break-the-rules">The Illusion: Gears That Break the Rules<a hidden class="anchor" aria-hidden="true" href="#the-illusion-gears-that-break-the-rules">#</a></h3>
-<p>Normally, when gears stack up, each one turns the opposite way of the gear above it. Top gear goes clockwise? The next one goes counterclockwise. That’s just how it works. But in our illusion, the bottom gear spins the <em>same direction</em> as the top one—like some kind of mechanical rebel. It looks impossible because, well, it is. And that’s what makes it so cool.</p>
-<p>Here’s what it looks like in action:</p>
+<h3 id="how-the-illusion-works">How the Illusion Works<a hidden class="anchor" aria-hidden="true" href="#how-the-illusion-works">#</a></h3>
+<p>In a typical gear system, adjacent gears rotate in opposite directions. However, in this illusion, the bottom gear matches the rotation of the top gear, creating a visually striking effect that appears &ldquo;impossible&rdquo; to AI - not quite there with the human eye but it&rsquo;s not too bad. Below is a demonstration of the illusion:</p>
 <p><img alt="Impossible Gear Cascade" loading="lazy" src="/images/myAnimation.gif"></p>
-<p>See that? The gears seem to mesh perfectly, but that bottom one matches the top gear. It&rsquo;s not the perfect illusion but hey for a Grok project that&rsquo;s pretty neat. I wonder what else kind of things Grok can do with illusions&hellip;</p>
 <hr>
-<h3 id="how-we-made-it-happen">How We Made It Happen<a hidden class="anchor" aria-hidden="true" href="#how-we-made-it-happen">#</a></h3>
-<p>This was a team effort. I had the idea, and Grok helped me learn and work on it. Here’s the rundown:</p>
+<h3 id="technical-approach">Technical Approach<a hidden class="anchor" aria-hidden="true" href="#technical-approach">#</a></h3>
+<p>The development process involved several key steps:</p>
 <ul>
-<li><strong>One Gear at a Time</strong>: We started simple—drew a single gear with p5.js, using circles for the body and little rectangles for the teeth. Easy enough.</li>
-<li><strong>Stacking ‘Em Up</strong>: Then we added more gears—eight total, lined up vertically. Each one had to spin the opposite way of the one above it, except for that bottom gear, which we set to match the top.</li>
-<li><strong>Making It Click</strong>: Getting the teeth to line up was the hard part. We shifted every other gear, so they’d look like they were actually turning each other. Took some tweaking, but it worked.</li>
-<li><strong>A Little Extra Fun</strong>: We threw in a feature where you can click the screen to flip the direction of all the gears. The illusion still holds up, which is honestly pretty neat.</li>
+<li><strong>Single Gear Creation</strong>: We began by drawing a single gear using p5.js, utilizing <code>ellipse()</code> for the gear body and <code>rect()</code> for the teeth.</li>
+<li><strong>Stacking Multiple Gears</strong>: We then extended this to a vertical stack of eight gears, each programmed to rotate in the opposite direction of the one above it—except for the bottom gear, which was set to match the top gear’s rotation.</li>
+<li><strong>Aligning the Teeth</strong>: To enhance the illusion, we adjusted the positioning of every other gear to ensure their teeth appeared to mesh seamlessly, requiring precise angle adjustments.</li>
+<li><strong>Interactive Feature</strong>: We added an interactive element allowing users to reverse the rotation direction of all gears with a mouse click, demonstrating that the illusion persists regardless of direction.</li>
 </ul>
 <hr>
-<h3 id="why-p5js-rocked-for-this">Why p5.js Rocked for This<a hidden class="anchor" aria-hidden="true" href="#why-p5js-rocked-for-this">#</a></h3>
-<p>If you haven’t messed with <strong>p5.js</strong> before, it’s a JavaScript library that makes drawing and animating stuff a breeze. Here’s why it was clutch for us:</p>
+<h3 id="why-p5js-was-ideal">Why p5.js Was Ideal<a hidden class="anchor" aria-hidden="true" href="#why-p5js-was-ideal">#</a></h3>
+<p>p5.js proved to be an excellent choice for this project due to its simplicity and flexibility:</p>
 <ul>
-<li><strong>Simple Shapes</strong>: We used basic commands like <code>ellipse()</code> for circles and <code>rect()</code> for teeth. No fancy graphics knowledge needed.</li>
-<li><strong>Smooth Animation</strong>: p5.js has this <code>draw()</code> function that loops constantly, so we just updated the gear angles each frame to keep them spinning.</li>
-<li><strong>Click and Play</strong>: Adding that click-to-reverse feature was dead simple with p5.js’s built-in mouse controls.</li>
+<li><strong>Basic Shapes</strong>: The library’s straightforward functions like <code>ellipse()</code> and <code>rect()</code> made it easy to construct the gears.</li>
+<li><strong>Animation Loop</strong>: The <code>draw()</code> function facilitated smooth animation by continuously updating the gear angles.</li>
+<li><strong>User Interaction</strong>: Implementing the click-to-reverse feature was seamless with p5.js’s built-in mouse event handling.</li>
 </ul>
-<p>Oh, and when it was done, we used <code>saveGif()</code> to snag that animation you see above. Just hit a key, and it records a few seconds—perfect for sharing.</p>
+<p>Additionally, capturing the animation as a GIF was straightforward using p5.js’s <code>saveGif()</code> function, allowing us to easily share the result.</p>
 <hr>
-<h3 id="the-fun-of-figuring-it-out">The Fun of Figuring It Out<a hidden class="anchor" aria-hidden="true" href="#the-fun-of-figuring-it-out">#</a></h3>
-<p>Working with Grok was a blast. We’d toss ideas around, tweak the code, and watch the gears come to life. There were a few hiccups—like when the teeth wouldn’t line up right—but we kept at it until it looked smooth. Capturing that GIF was the cherry on top; it’s one thing to see it on your screen, another to share it with the world.</p>
-<blockquote>
-<p><strong>Quick Tip</strong>: Want to grab your own GIF in p5.js? Add this to your code:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">keyPressed</span>() {
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">key</span> <span style="color:#f92672">==</span> <span style="color:#e6db74">&#39;s&#39;</span>) {
-</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">saveGif</span>(<span style="color:#e6db74">&#39;myAnimation&#39;</span>, <span style="color:#ae81ff">5</span>); <span style="color:#75715e">// Snags 5 seconds
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  }
-</span></span><span style="display:flex;"><span>}
-</span></span></code></pre></div></blockquote>
+<h3 id="conclusion">Conclusion<a hidden class="anchor" aria-hidden="true" href="#conclusion">#</a></h3>
+<p>The <strong>Impossible Gear Cascade</strong> project was an engaging exercise in combining visual art with code. Working with Grok to refine the illusion was a rewarding experience, and the final product serves as a testament to the creative possibilities of p5.js. I encourage you to explore the code and experiment with it yourself.</p>
+<p><img alt="Gear Illusion in Action" loading="lazy" src="/images/gear-illusion.png"></p>
 <hr>
-<h3 id="check-it-out-yourself">Check It Out Yourself<a hidden class="anchor" aria-hidden="true" href="#check-it-out-yourself">#</a></h3>
-<p>If this sounds like your kind of thing, swing by the <a href="https://github.com/mwilcome/gear-illusion">GitHub repo</a> and take a peek. You can run it, mess with it, or even build your own crazy illusion. p5.js is super approachable—check out their <a href="https://p5js.org/get-started/">get-started page</a> if you’re new to it. It’s a great way to mix art and code.</p>
-<hr>
-<h3 id="wrapping-it-up">Wrapping It Up<a hidden class="anchor" aria-hidden="true" href="#wrapping-it-up">#</a></h3>
-<p>The <strong>Impossible Gear Cascade</strong> was a fun ride—part puzzle, part playground. I love how it turned out, and teaming up with Grok made it even better. It’s the kind of project that makes you blink twice and wonder, “Wait, how’s that work?” (Spoiler: it doesn’t, and that’s the point.)</p>
-<p>So go ahead—click around, flip the gears, and see if you can figure it out. I bet you’ll have as much fun as we did making it.</p>
-<p><img alt="Gear Illusion in Action" loading="lazy" src="/images/gear-illusion.png"><br>
-<em>[Source: <a href="https://github.com/mwilcome/gear-illusion">GitHub - Gear Illusion</a>]</em></p>
 
 
   </div>

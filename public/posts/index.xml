@@ -6,12 +6,19 @@
     <description>Recent content in Posts on Mike Wilcome’s Blog</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 26 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 27 Mar 2025 12:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Steering Through Uncertainty: A Leadership Perspective on the Jetpack Compose Navigation &#39;Navigation 3&#39; Rumor</title>
+      <link>http://localhost:1313/posts/uncertainty/</link>
+      <pubDate>Thu, 27 Mar 2025 12:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/uncertainty/</guid>
+      <description>A Principal Engineer reflects on validating rumors like the &amp;#39;Navigation 3&amp;#39; speculation around Jetpack Compose Navigation and the importance of disciplined decision-making in software leadership.</description>
+    </item>
     <item>
       <title>Finding Motivation in Tech</title>
       <link>http://localhost:1313/posts/leading-and-serving/</link>
-      <pubDate>Wed, 26 Mar 2025 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 25 Mar 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/leading-and-serving/</guid>
       <description>&lt;p&gt;&lt;img alt=&#34;Mike Wilcome, Principal Engineer&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/images/About_Background.png&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;a-journey-of-building-and-serving&#34;&gt;A Journey of Building and Serving&lt;/h2&gt;

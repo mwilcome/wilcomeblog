@@ -6,58 +6,45 @@
     <description>Recent content in Projects on Mike Wilcome’s Blog</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 06 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 25 Aug 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Mandelbrot Spiral Project</title>
-      <link>http://localhost:1313/projects/mandelbrot-spiral/</link>
-      <pubDate>Thu, 06 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/mandelbrot-spiral/</guid>
-      <description>&lt;h1 id=&#34;mandelbrot-spiral&#34;&gt;Mandelbrot Spiral&lt;/h1&gt;
-&lt;p&gt;I built a project called &lt;code&gt;mandelbrot-spiral&lt;/code&gt;. This was a &amp;ldquo;lunch break&amp;rdquo; project today. It’s a visualization of the Mandelbrot set that zooms in fast with a spiral twist. Wrote it quickly with Grok (xAI) helping in JavaScript using p5.js. The idea came from messing around with the Mandelbrot set—wanted to see it move, not just sit there. Took some trial and error to get the zoom right, but it’s out on GitHub now: &lt;a href=&#34;https://github.com/mwilcome/mandelbrot-spiral&#34;&gt;mwilcome/mandelbrot-spiral&lt;/a&gt;. Here’s what it’s about.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Creating an Impossible Gear Illusion with p5.js</title>
-      <link>http://localhost:1313/projects/gear-illusion/</link>
-      <pubDate>Tue, 04 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/gear-illusion/</guid>
-      <description>&lt;h2 id=&#34;a-wild-idea-comes-to-life&#34;&gt;A Wild Idea Comes to Life&lt;/h2&gt;
-&lt;p&gt;I recently teamed up with &lt;strong&gt;Grok&lt;/strong&gt;, an AI from xAI, to tackle a fun challenge: building an optical illusion that makes you question how gears work. The result is the &lt;strong&gt;Impossible Gear Cascade&lt;/strong&gt;—a stack of gears where the bottom one spins the &lt;em&gt;same way&lt;/em&gt; as the top, which shouldn’t happen in real life. We brought it to life using &lt;strong&gt;p5.js&lt;/strong&gt;, a JavaScript tool that’s perfect for creative projects like this.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Building Backend Pipelines for Comporium: Taming the Sales Beast</title>
+      <title>Building Backend Pipelines for Comporium: Developing the Sales System</title>
       <link>http://localhost:1313/projects/comporium/</link>
       <pubDate>Sun, 25 Aug 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/comporium/</guid>
-      <description>&lt;h2 id=&#34;diving-into-comporiums-telephoneinternetsecurity-sales&#34;&gt;Diving into Comporium’s Telephone/Internet/Security Sales&lt;/h2&gt;
-&lt;p&gt;Back at Orange Bees, I worked with &lt;a href=&#34;https://www.comporium.com/&#34;&gt;Comporium&lt;/a&gt;, a Southeast company who work on phone, internet, TV, and security services across the Carolinas. I was tasked with building and supporting a fleet of &lt;strong&gt;Java microservices&lt;/strong&gt; to power their sales pipelines—an internal tool that sales reps lean on to wrestle orders into shape. It was about streamlining a tangled mess into something sleek, all while juggling the ins and outs of their massive product lineup.&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;developing-backend-pipelines-for-comporiums-sales-system&#34;&gt;Developing Backend Pipelines for Comporium’s Sales System&lt;/h2&gt;
+&lt;p&gt;During my time at Orange Bees, I collaborated with &lt;a href=&#34;https://www.comporium.com/&#34;&gt;Comporium&lt;/a&gt;, a telecommunications provider in the Southeast, to enhance their internal sales tools. My primary responsibility was to design and maintain a suite of &lt;strong&gt;Java microservices&lt;/strong&gt; that streamlined their sales pipelines for telephone, internet, TV, and security services. This project aimed to simplify a complex system, improving efficiency for sales representatives while ensuring robust performance and security.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Supporting Michelin FixPix Backend: Roadside Rescue Done Right</title>
+      <title>Supporting Michelin FixPix Backend: Enhancing Roadside Assistance</title>
       <link>http://localhost:1313/projects/michelin-fixpix/</link>
       <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/michelin-fixpix/</guid>
-      <description>&lt;h2 id=&#34;hitting-the-road-with-michelin&#34;&gt;Hitting the Road with Michelin&lt;/h2&gt;
-&lt;p&gt;From August 2022 to December 2023, I got my hands dirty at Orange Bees, powering up the backend for &lt;em&gt;Michelin FixPix&lt;/em&gt;—a slick little app tied into &lt;a href=&#34;https://business.michelinman.com/oncall/tire-service&#34;&gt;Michelin’s OnCall&lt;/a&gt; roadside assistance gig. This was a challenge that had me wrestling with &lt;strong&gt;Java&lt;/strong&gt;, &lt;strong&gt;Apache Camel&lt;/strong&gt;, &lt;strong&gt;Vaadin&lt;/strong&gt;, &lt;strong&gt;Velocity&lt;/strong&gt;, and &lt;strong&gt;Spring&lt;/strong&gt; to help their roadside services more efficient.&lt;/p&gt;
+      <description>&lt;h2 id=&#34;enhancing-michelins-roadside-assistance-with-fixpix&#34;&gt;Enhancing Michelin’s Roadside Assistance with FixPix&lt;/h2&gt;
+&lt;p&gt;From August 2022 to December 2023, I worked at Orange Bees to support the backend development of &lt;em&gt;Michelin FixPix&lt;/em&gt;, an application integrated with &lt;a href=&#34;https://business.michelinman.com/oncall/tire-service&#34;&gt;Michelin’s OnCall&lt;/a&gt; roadside assistance service. This project utilized &lt;strong&gt;Java&lt;/strong&gt;, &lt;strong&gt;Apache Camel&lt;/strong&gt;, &lt;strong&gt;Vaadin&lt;/strong&gt;, &lt;strong&gt;Velocity&lt;/strong&gt;, and &lt;strong&gt;Spring&lt;/strong&gt; to build a reliable system that improves the efficiency of Michelin’s roadside operations.&lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;the-mission-keeping-techs-rolling&#34;&gt;The Mission: Keeping Techs Rolling&lt;/h3&gt;
-&lt;p&gt;Michelin’s OnCall system is all about getting stranded drivers back on the road, fast—24/7, coast-to-coast, no excuses. FixPix fits right in, giving roadside techs real-time tools to handle breakdowns in the middle of nowhere. I was the guy behind the scenes, building a backend that delivered &lt;strong&gt;locations&lt;/strong&gt;, &lt;strong&gt;data points&lt;/strong&gt;, and quick comms to those techs in rural spots where cell service is dicey. It took some serious technical know-how to untangle the mess of requirements and lead the charge—think of it like threading a needle while the truck’s still rolling.&lt;/p&gt;</description>
+&lt;h3 id=&#34;project-scope-and-challenges&#34;&gt;Project Scope and Challenges&lt;/h3&gt;
+&lt;p&gt;Michelin’s OnCall service offers 24/7 roadside assistance across the United States, and FixPix provides technicians with real-time tools to manage breakdowns, particularly in areas with limited connectivity. My role involved creating a backend system to deliver essential data—such as location information and service details—to technicians in the field. This required addressing complex technical requirements to ensure consistent performance under demanding conditions.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Sync My Health Data: Wearables for Veterans</title>
+      <title>Sync My Health Data: Integrating Wearables for Veteran Health</title>
       <link>http://localhost:1313/projects/sync-my-health-data/</link>
       <pubDate>Mon, 01 Aug 2022 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/sync-my-health-data/</guid>
-      <description>&lt;h2 id=&#34;turning-wearables-into-lifelines&#34;&gt;Turning Wearables into Lifelines&lt;/h2&gt;
-&lt;p&gt;From April 2019 to August 2022, I stepped up as the &lt;strong&gt;lead architect&lt;/strong&gt; for &lt;em&gt;Sync My Health Data&lt;/em&gt;—a beast of a project that’s honestly one of my proudest wins. Picture this: I built a backend API that ties together &lt;strong&gt;20+ health apps&lt;/strong&gt; and &lt;strong&gt;800+ devices&lt;/strong&gt;, pulling live data straight to VA doctors. We’re talking heavy hitters like &lt;a href=&#34;https://www.fitbit.com&#34;&gt;Fitbit&lt;/a&gt; and &lt;a href=&#34;https://www.garmin.com&#34;&gt;Garmin&lt;/a&gt;, plus a slew of others, all feeding into a system I crafted with &lt;strong&gt;Java&lt;/strong&gt; and &lt;strong&gt;Server-Sent Events (SSE)&lt;/strong&gt;. The mission? Deliver real-time insights on heart health, diabetes, and fitness for veterans—data that’s making a difference every day.&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;integrating-wearables-for-veterans-health-with-sync-my-health-data&#34;&gt;Integrating Wearables for Veterans’ Health with Sync My Health Data&lt;/h2&gt;
+&lt;p&gt;From April 2019 to August 2022, I served as the &lt;strong&gt;lead architect&lt;/strong&gt; for &lt;em&gt;Sync My Health Data&lt;/em&gt;, a project that connects data from over &lt;strong&gt;20 health apps&lt;/strong&gt; and &lt;strong&gt;800 devices&lt;/strong&gt; to provide VA doctors with real-time health insights. Using &lt;strong&gt;Java&lt;/strong&gt; and &lt;strong&gt;Server-Sent Events (SSE)&lt;/strong&gt;, I designed and implemented a backend API that integrates wearables like &lt;a href=&#34;https://www.fitbit.com&#34;&gt;Fitbit&lt;/a&gt; and &lt;a href=&#34;https://www.garmin.com&#34;&gt;Garmin&lt;/a&gt;, supporting veterans’ health monitoring for conditions such as heart disease and diabetes.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Rebuilding VBMS Correspondence Web Service</title>
+      <title>Rebuilding the VBMS Correspondence Web Service for Veterans Affairs</title>
       <link>http://localhost:1313/projects/vbms-correspondence/</link>
       <pubDate>Fri, 15 Mar 2019 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/vbms-correspondence/</guid>
-      <description>&lt;h2 id=&#34;project-start&#34;&gt;Project Start&lt;/h2&gt;
-&lt;p&gt;Back at Booz Allen Hamilton, from September 2015 to March 2019, I took on a large project: the &lt;em&gt;VBMS Correspondence Web Service&lt;/em&gt;. When I started, it was a mess—&lt;strong&gt;20+ modules&lt;/strong&gt; tangled up in a large monolithic app, part of an even bigger system for the Veterans Affairs. I had to rebuild it, and make it work for vets needing their benefits. Over the years, I led the charge to split it out into its own service, rewriting it as a lean &lt;strong&gt;Jersey&lt;/strong&gt; and &lt;strong&gt;Spring Boot&lt;/strong&gt; microservice, with a sprinkle of &lt;strong&gt;Groovy&lt;/strong&gt; for good measure. This resulted in a streamlined system that churned out formatted PDF documents from requests, cutting through the VA’s correspondence mess.&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;rebuilding-the-vbms-correspondence-web-service&#34;&gt;Rebuilding the VBMS Correspondence Web Service&lt;/h2&gt;
+&lt;p&gt;From September 2015 to March 2019, I led the redevelopment of the &lt;em&gt;VBMS Correspondence Web Service&lt;/em&gt; at Booz Allen Hamilton. This initiative transformed a complex, monolithic application into an efficient microservice architecture for the Veterans Affairs, using &lt;strong&gt;Jersey&lt;/strong&gt;, &lt;strong&gt;Spring Boot&lt;/strong&gt;, and &lt;strong&gt;Groovy&lt;/strong&gt; to produce formatted PDF documents for correspondence needs.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;project-challenges-and-solutions&#34;&gt;Project Challenges and Solutions&lt;/h3&gt;
+&lt;p&gt;The original system included over 20 modules within a monolithic framework, posing maintenance and scalability issues. My approach involved:&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
