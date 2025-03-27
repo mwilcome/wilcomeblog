@@ -2,7 +2,7 @@
 title: "About Me"
 ---
 
-![Mike Wilcome, Principal Engineer](/images/IMG_7839.JPG)
+![Mike Wilcome, Principal Engineer](/images/About-Me.png)
 
 ## Mike Wilcome
 *Principal Engineer | Full-Stack Java Expert | Tech Leader*
@@ -55,7 +55,7 @@ Developed decision-making and ethical skills. I felt it's important to put on my
 #### Game Technician
 *Blackbeard’s Cove*  
 *Sep 2006 - Sep 2008 | Mount Pleasant, SC*  
-Programmed arcade games and laser tag assets. It was something of a badge of honor of mine to include this because it was my first real job and I started as a janitor/go-cart operator/ticket counter worker. I ended up noticing that when the arcade machines would break nobody would fix them. There would be hours that would go by with minimal customers so I found myself just opening up the machines and taking a look. I ended up soldering toy gun controllers and ended up actually having to program some of the levels/win conditions in the games and I'd go in and fix both the mechanical and programatic issues. I was a teenager at the time. I was promoted to "Game Technician" when my boss noticed I could fix the games and he didn't have to pay a tech to come by and fix them anymore. It was a win-win, I got a raise, he got a cheap technician, and I got some permanent experience I can put on my resume at the same time. Pretty cool. 
+Programmed arcade games and laser tag assets. It was something of a badge of honor of mine to include this because it was my first real job and I started as a janitor/go-cart operator/ticket counter worker. I ended up noticing that when the arcade machines would break nobody would fix them. There would be hours that would go by with minimal customers so I found myself just opening up the machines and taking a look. I ended up soldering toy gun controllers and ended up actually having to program some of the levels/win conditions in the games and I'd go in and fix both the mechanical and programatic issues. I was a teenager at the time. I was promoted to "Game Technician" when my boss noticed I could fix the games and he didn't have to pay a tech to come by and fix them anymore. It was a win-win, I got a raise, he got a cheap technician, and I got some permanent experience I could put on my resume at the same time.
 
 ---
 

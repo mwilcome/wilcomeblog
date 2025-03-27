@@ -32,6 +32,7 @@ title = "Mike Wilcome’s Blog"
     url = "https://linkedin.com/in/michael-wilcome-36377bb0"
 
 # Menu configuration
+# Adjust the weight to control the order in the menu
 [menu]
   [[menu.main]]
     name = "Home"
@@ -45,3 +46,7 @@ title = "Mike Wilcome’s Blog"
     name = "About"
     url = "/about/"
     weight = 3
+  [[menu.main]]
+    name = "Projects"
+    url = "/projects/"
+    weight = 4  

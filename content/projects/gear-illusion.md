@@ -1,6 +1,6 @@
 ---
 title: "Creating an Impossible Gear Illusion with p5.js"
-date: 2025-03-06
+date: 2025-03-04
 author: "Mike Wilcome"
 ---
 

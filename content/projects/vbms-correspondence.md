@@ -1,12 +1,12 @@
 ---
-title: "Architecting VBMS Correspondence Web Service: From Chaos to Clarity"
+title: "Rebuilding VBMS Correspondence Web Service"
 date: 2019-03-15
 author: "Mike Wilcome"
 ---
 
 ## Facing the Monolith Monster
 
-Back at Booz Allen Hamilton, from September 2015 to March 2019, I took on a large project: the *VBMS Correspondence Web Service*. When I started, it was a mess—**20+ modules** tangled up in a hulking monolithic app, part of an even bigger system for the Veterans Affairs. I had to rebuild it, and make it work for vets needing their benefits. Over the years, I led the charge to split it out into its own service, rewriting it as a lean **Jersey** and **Spring Boot** microservice, with a sprinkle of **Groovy** for good measure. The result? A streamlined powerhouse that churned out formatted PDF documents from requests, cutting through the VA’s correspondence chaos.
+Back at Booz Allen Hamilton, from September 2015 to March 2019, I took on a large project: the *VBMS Correspondence Web Service*. When I started, it was a mess—**20+ modules** tangled up in a large monolithic app, part of an even bigger system for the Veterans Affairs. I had to rebuild it, and make it work for vets needing their benefits. Over the years, I led the charge to split it out into its own service, rewriting it as a lean **Jersey** and **Spring Boot** microservice, with a sprinkle of **Groovy** for good measure. This resulted in a streamlined system that churned out formatted PDF documents from requests, cutting through the VA’s correspondence mess.
 
 ---
 
@@ -30,4 +30,4 @@ Here’s what I was directed to use:
 
 ### The Payoff: Awards and Pride
 
-This wasn’t just a pat on the back kinda gig. At Booz Allen, they threw some serious hardware my way for this: a **Team and Performance Award** for leading the crew, and an **Innovation in Action Award** for rethinking the whole thing. It’s one of my proudest wins—not just because of the shiny plaques, but because it *helped vets*. Streamlining how the VA sends mail—every piece of correspondence—means faster benefits, less hassle. That’s the stuff that sticks with you.
+As a result of my effort, I received a **Team and Performance Award** for leading the crew, and an **Innovation in Action Award** for rethinking the whole thing. It’s one of my proudest wins—not just because of the shiny plaques, but because it *helped vets*. Streamlining how the VA sends mail—every piece of correspondence—means faster benefits, less hassle. That’s the stuff that sticks with you.

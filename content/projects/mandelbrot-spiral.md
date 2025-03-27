@@ -1,6 +1,6 @@
 ---
 title: "Mandelbrot Spiral Project"
-date: 2025-03-05
+date: 2025-03-06
 author: "Mike Wilcome"
 ---
 # Mandelbrot Spiral
