@@ -33,7 +33,7 @@
 &lt;p&gt;The problem is that in tech, we have to constantly learn and move forward. If we don’t, we get left behind by the next person who’s motivated to learn and move up. I’ve recently found that my motivation is tied, in part, to my interest in something, but it can also be tied to my desire for a better quality of life. I often think, &lt;em&gt;&amp;ldquo;If I can build something that people will use, not only could I make some money, but it would benefit people as well.&amp;rdquo;&lt;/em&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Building Backend Pipelines for Comporium: Taming the Sales System</title>
+      <title>Building Backend Pipelines for Comporium: Developing the Sales System</title>
       <link>http://localhost:1313/projects/comporium/</link>
       <pubDate>Sun, 25 Aug 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/comporium/</guid>
@@ -52,7 +52,7 @@
 &lt;p&gt;Michelin’s OnCall service offers 24/7 roadside assistance across the United States, and FixPix provides technicians with real-time tools to manage breakdowns, particularly in areas with limited connectivity. My role involved creating a backend system to deliver essential data—such as location information and service details—to technicians in the field. This required addressing complex technical requirements to ensure consistent performance under demanding conditions.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Sync My Health Data: Integrating Wearables for Veterans’ Health</title>
+      <title>Sync My Health Data: Integrating Wearables for Veteran Health</title>
       <link>http://localhost:1313/projects/sync-my-health-data/</link>
       <pubDate>Mon, 01 Aug 2022 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/sync-my-health-data/</guid>
