@@ -4,7 +4,7 @@ date: 2019-03-15
 author: "Mike Wilcome"
 ---
 
-## Facing the Monolith Monster
+## Project Start
 
 Back at Booz Allen Hamilton, from September 2015 to March 2019, I took on a large project: the *VBMS Correspondence Web Service*. When I started, it was a mess—**20+ modules** tangled up in a large monolithic app, part of an even bigger system for the Veterans Affairs. I had to rebuild it, and make it work for vets needing their benefits. Over the years, I led the charge to split it out into its own service, rewriting it as a lean **Jersey** and **Spring Boot** microservice, with a sprinkle of **Groovy** for good measure. This resulted in a streamlined system that churned out formatted PDF documents from requests, cutting through the VA’s correspondence mess.
 
@@ -18,7 +18,7 @@ This wasn’t a quick fix. That original setup was a nightmare—20+ modules of 
 
 ---
 
-### Tools That Tamed It
+### Tools That I had to Use
 
 Here’s what I was directed to use:
 - **Jersey & Spring Boot**: The backbone—fast, modern, and built to scale.
