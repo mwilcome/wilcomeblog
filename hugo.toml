@@ -46,14 +46,14 @@ title = "Mike Wilcome’s Blog"
     url = "/posts/"
     weight = 2
   [[menu.main]]
-    name = "About"
-    url = "/about/"
-    weight = 3
-  [[menu.main]]
     name = "Projects"
     url = "/projects/"
-    weight = 4  
+    weight = 3  
   [[menu.main]]
-  name = "Experiments"
-  url = "/experiments/"
-  weight = 5
+    name = "Experiments"
+    url = "/experiments/"
+    weight = 4
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 5
