@@ -23,6 +23,9 @@ title = "Mike Wilcome’s Blog"
   ShowReadingTime = true
   ShowPostNavLinks = true
 
+  # Specifies which section shows on the Homepage
+  mainSections = ["posts"]
+
   # Social links
   [[params.social]]
     name = "GitHub"
@@ -40,7 +43,7 @@ title = "Mike Wilcome’s Blog"
     weight = 1
   [[menu.main]]
     name = "Blog"
-    url = "/blog/"
+    url = "/posts/"
     weight = 2
   [[menu.main]]
     name = "About"

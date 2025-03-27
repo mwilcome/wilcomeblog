@@ -56,7 +56,7 @@
       <link>http://localhost:1313/projects/vbms-correspondence/</link>
       <pubDate>Fri, 15 Mar 2019 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/vbms-correspondence/</guid>
-      <description>&lt;h2 id=&#34;facing-the-monolith-monster&#34;&gt;Facing the Monolith Monster&lt;/h2&gt;
+      <description>&lt;h2 id=&#34;project-start&#34;&gt;Project Start&lt;/h2&gt;
 &lt;p&gt;Back at Booz Allen Hamilton, from September 2015 to March 2019, I took on a large project: the &lt;em&gt;VBMS Correspondence Web Service&lt;/em&gt;. When I started, it was a mess—&lt;strong&gt;20+ modules&lt;/strong&gt; tangled up in a large monolithic app, part of an even bigger system for the Veterans Affairs. I had to rebuild it, and make it work for vets needing their benefits. Over the years, I led the charge to split it out into its own service, rewriting it as a lean &lt;strong&gt;Jersey&lt;/strong&gt; and &lt;strong&gt;Spring Boot&lt;/strong&gt; microservice, with a sprinkle of &lt;strong&gt;Groovy&lt;/strong&gt; for good measure. This resulted in a streamlined system that churned out formatted PDF documents from requests, cutting through the VA’s correspondence mess.&lt;/p&gt;</description>
     </item>
   </channel>
