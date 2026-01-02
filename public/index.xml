@@ -71,20 +71,68 @@
 &lt;p&gt;The original system included over 20 modules within a monolithic framework, posing maintenance and scalability issues. My approach involved:&lt;/p&gt;</description>
     </item>
     <item>
-      <title>About Me</title>
+      <title>About</title>
       <link>http://localhost:1313/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/about/</guid>
       <description>&lt;p&gt;&lt;img alt=&#34;Mike Wilcome, Principal Engineer&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/images/About-Me.png&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;mike-wilcome&#34;&gt;Mike Wilcome&lt;/h2&gt;
-&lt;p&gt;&lt;em&gt;Principal Engineer | Full-Stack Java Expert | Tech Leader&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;I’m Mike Wilcome, a Principal Engineer passionate about building innovative software solutions. With expertise in full-stack Java development, microservices, and leadership, I’ve spent over a decade delivering impactful projects in tech, healthcare, and veteran services.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Principal Engineer | Full-Stack Java | Technical Leadership&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Principal Engineer with over a decade of experience designing, building, and leading enterprise software systems. Specialized in Java-based back-end development, distributed systems, and API-driven architectures, with extensive experience supporting large-scale government, healthcare, and veteran-focused platforms. Proven technical leader with a strong background in system design, team leadership, and long-term platform ownership.&lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;education&#34;&gt;Education&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Bachelor of Science in Computer Science&lt;/strong&gt;&lt;br&gt;
-&lt;em&gt;Charleston Southern University&lt;/em&gt;&lt;br&gt;
-&lt;em&gt;2009 - 2014&lt;/em&gt;&lt;br&gt;
-I learned the foundations of software engineering while honing skills in leadership and service. This degree focused on alot of the deeper computer science concepts and math  C++, advanced data structures, system architecture, calc 3, physics 2+, linear algebra, etc. I was also tailored to Java so I could focus on dev work post-college.&lt;/p&gt;</description>
+&lt;h2 id=&#34;technical-skills&#34;&gt;Technical Skills&lt;/h2&gt;
+&lt;h3 id=&#34;programming-languages&#34;&gt;Programming Languages&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Java (primary language, daily professional use)&lt;/li&gt;
+&lt;li&gt;Kotlin Multiplatform (frequent use, including recent releases)&lt;/li&gt;
+&lt;li&gt;JavaScript (production frontend use)&lt;/li&gt;
+&lt;li&gt;TypeScript&lt;/li&gt;
+&lt;li&gt;SQL&lt;/li&gt;
+&lt;li&gt;C# (limited professional use, including Xamarin)&lt;/li&gt;
+&lt;li&gt;C++ (academic background)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;backend-development&#34;&gt;Backend Development&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Spring ecosystem (Spring Core, Spring Boot, related frameworks)&lt;/li&gt;
+&lt;li&gt;JPA and Hibernate&lt;/li&gt;
+&lt;li&gt;RESTful API design and implementation&lt;/li&gt;
+&lt;li&gt;OpenAPI specification and contract-driven development&lt;/li&gt;
+&lt;li&gt;Messaging systems, including Kafka and RabbitMQ&lt;/li&gt;
+&lt;li&gt;Event-driven and plugin-oriented system design&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;frontend-development&#34;&gt;Frontend Development&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Angular (version 20 and later, personal and independent projects)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;databases-and-data-stores&#34;&gt;Databases and Data Stores&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;PostgreSQL&lt;/li&gt;
+&lt;li&gt;MySQL&lt;/li&gt;
+&lt;li&gt;Oracle&lt;/li&gt;
+&lt;li&gt;MongoDB&lt;/li&gt;
+&lt;li&gt;Redis&lt;/li&gt;
+&lt;li&gt;Elasticsearch (basic exposure)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;devops-and-infrastructure-working-knowledge&#34;&gt;DevOps and Infrastructure (Working Knowledge)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Docker&lt;/li&gt;
+&lt;li&gt;Kubernetes&lt;/li&gt;
+&lt;li&gt;CI/CD pipelines (GitHub Actions, Jenkins)&lt;/li&gt;
+&lt;li&gt;AWS&lt;/li&gt;
+&lt;li&gt;Netlify&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;architecture-and-leadership&#34;&gt;Architecture and Leadership&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Microservices architecture&lt;/li&gt;
+&lt;li&gt;API design and platform ownership&lt;/li&gt;
+&lt;li&gt;Technical leadership&lt;/li&gt;
+&lt;li&gt;Mentoring and guiding engineers&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;professional-experience&#34;&gt;Professional Experience&lt;/h2&gt;
+&lt;h3 id=&#34;principal-engineer&#34;&gt;Principal Engineer&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Iron Bow Technologies | Soldierpoint | GovCIO&lt;/strong&gt;&lt;br&gt;
+Aug 2024 – Present | Remote&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
