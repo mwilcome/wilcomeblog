@@ -2,7 +2,7 @@
 title: "About"
 ---
 
-![Mike Wilcome, Principal Engineer](/images/About-Me.png)
+![Mike Wilcome, Principal Engineer](/images/About-Me-1.png)
 
 ## Mike Wilcome
 **Principal Engineer | Full-Stack Java | Technical Leadership**
@@ -141,7 +141,8 @@ Awarded for leadership and collaboration on initiatives that streamlined Veteran
 ## Certifications
 
 **ICAgile Certified Professional (ICP)**  
-ICAgile
+![ICAgile Certification](/images/icagile-cert.png)
+
 
 ---
 
@@ -156,3 +157,6 @@ https://linkedin.com/in/michael-wilcome-36377bb0
 
 **GitHub**  
 https://github.com/mwilcome
+
+**Personal Website**
+https://mikewilcome.com/
