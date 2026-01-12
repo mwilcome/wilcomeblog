@@ -13,46 +13,13 @@ Principal Engineer with over a decade of experience designing, building, and lea
 
 ## Technical Skills
 
-### Programming Languages
-- Java (primary language, daily professional use)
-- Kotlin Multiplatform (frequent use, including recent releases)
-- JavaScript (production frontend use)
-- TypeScript
-- SQL
-- C# (limited professional use, including Xamarin)
-- C++ (academic background)
-
-### Backend Development
-- Spring ecosystem (Spring Core, Spring Boot, related frameworks)
-- JPA and Hibernate
-- RESTful API design and implementation
-- OpenAPI specification and contract-driven development
-- Messaging systems, including Kafka and RabbitMQ
-- Event-driven and plugin-oriented system design
-
-### Frontend Development
-- Angular (version 20 and later, personal and independent projects)
-
-### Databases and Data Stores
-- PostgreSQL
-- MySQL
-- Oracle
-- MongoDB
-- Redis
-- Elasticsearch (basic exposure)
-
-### DevOps and Infrastructure (Working Knowledge)
-- Docker
-- Kubernetes
-- CI/CD pipelines (GitHub Actions, Jenkins)
-- AWS
-- Netlify
-
-### Architecture and Leadership
-- Microservices architecture
-- API design and platform ownership
-- Technical leadership
-- Mentoring and guiding engineers
+- Java
+- Spring Boot, JPA/Hibernate, RESTful and contract-first APIs (OpenAPI)
+- Angular (TypeScript/JavaScript, Signals, RxJS)
+- Kotlin Multiplatform (shared logic and UI across Android, iOS, and Web)
+- SQL and relational databases (PostgreSQL, MySQL, Oracle)
+- Event-driven systems (Kafka, RabbitMQ)
+- System architecture, API ownership, and technical mentorship
 
 ---
 
